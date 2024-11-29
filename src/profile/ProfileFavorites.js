@@ -22,6 +22,12 @@ const UserFavoritesComponent = () => {
     fetchFavorites();
   }, [currUser.username]);
 
+  //search for recipes by tag
+  async function search(tag) {
+    let recipes = await RecipeApi.getAllRecipes(tag);
+    setFavorites(recipes);
+  }
+
   return (
     <div className="favorites-list">
       <h1>{currUser.username} favorites</h1>
@@ -32,6 +38,7 @@ const UserFavoritesComponent = () => {
           title={title}
           description={description}
           tag={tag}
+          search={search}
         />
       ))}
     </div>
