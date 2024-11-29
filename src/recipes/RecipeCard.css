@@ -1,0 +1,29 @@
+.card-body {
+    border: 2px black solid;
+    width: 35%;
+    display: inline-block;
+    margin:5px;
+    padding: 5px;
+}
+
+.card-body h3{
+    margin-top: 3px;
+}
+
+.card-body p{
+    margin-top: 3px;
+}
+
+.card-body h5{
+    text-align: end;
+    margin-bottom: 3px;
+}
+
+.card-body .link-style{
+cursor: pointer;
+text-decoration: underline;
+}
+
+.card-body .link-style:hover{
+    color: salmon
+}

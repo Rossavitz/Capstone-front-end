@@ -1,0 +1,16 @@
+
+.nav-bar-ul li {
+    display: block;
+    margin-right: 10px;
+    float: right;
+}
+
+.nav-bar-ul {
+    position: relative;
+    right: 10px;
+    top: 0px;
+}
+
+.nav-bar-ul a:hover{
+    color: salmon;
+}

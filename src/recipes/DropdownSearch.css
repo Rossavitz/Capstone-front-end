@@ -1,0 +1,17 @@
+.dropdown{
+    display: block;
+    align-items: center;
+    margin:  0 auto;
+    margin-bottom: 10px;
+}
+
+.dropdown-btn{
+    display: block;
+    align-items: center;
+    margin:  5px auto;
+}
+
+.dropdown h3 {
+    display: block;
+    text-align: center;
+}

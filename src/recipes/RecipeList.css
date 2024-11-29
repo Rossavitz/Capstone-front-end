@@ -1,0 +1,43 @@
+.add-recipe-btn{
+    display: block;
+    align-items: center;
+    margin:  0 auto;
+
+}
+.add-recipe-btn button{
+    display: block;
+    align-items: center;
+    margin:  5px auto;
+}
+
+.add-recipe-btn h4{
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.add-recipe-btn a{
+    text-decoration: none;
+}
+
+.search-add{
+    width: 25%;
+    display: block;
+    align-items: center;
+    margin:  0 auto;
+    border: 2px black dashed;
+}
+
+.dropdown-logout {
+    margin: 20px;
+}
+
+.Recipe-h3{
+    text-align: center;
+    margin-top: 30px;
+}
+.card-body{
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+}
